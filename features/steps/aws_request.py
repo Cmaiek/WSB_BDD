@@ -1,5 +1,6 @@
 import behave
-import requests, json
+import requests
+import json
 
 @given('uzytkownik jest zarejestrowany i istnieje')
 def step_impl(context):
